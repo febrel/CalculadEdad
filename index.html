@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Calcular Edad</title>
+
+</head>
+
+<body>
+
+
+    <h1 class="display-5 text-center">Calcula tu Edad</h1>
+
+    <div class="container ">
+
+        
+        <div class="d-flex align-items-center justify-content-center">
+           
+
+            <form>
+                <div class="input-group">
+                    
+                    <select class="form-control form-control-lg  " id="yearInput">
+                        <option value="">Seleccione</option>
+                    </select>
+
+
+
+                    <select class="form-control form-control-lg  " id="monthInput">
+                        <option value="">Seleccione</option>
+                    </select>
+
+                    <select class="form-control form-control-lg  " id="dayInput">
+                        <option value="">Seleccione</option>
+                    </select>
+
+                </div>
+
+
+
+                <div class="mt-3" id="output">
+                    <div class="card bg-primary p-3 mb-2">
+                        <div class="card-block">
+                            <h5 class="text-light">Años:</h5>
+                            <div id="grOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-success p-3 mb-2">
+                        <div class="card-block">
+                            <h5 class="text-light">Meses:</h5>
+                            <div id="kgOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-danger p-3 mb-2">
+                        <div class="card-block">
+                            <h5 class="text-light">Dias:</h5>
+                            <div id="ozOutput"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
